@@ -1,0 +1,11 @@
+.env
+.env*.local
+
+.venv
+__pycache__/
+uploads/
+*.txt
+
+node_modules/
+.next/
+.DS_Store
