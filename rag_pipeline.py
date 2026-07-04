@@ -66,7 +66,7 @@ query_embedding = model_embedding.encode(
 
 results = collection.query(
     query_embeddings=[query_embedding],
-    n_results=2
+    n_results=10
 )
 
 retrieved_chunks = results["documents"][0]

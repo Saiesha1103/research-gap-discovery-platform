@@ -91,7 +91,7 @@ def retrieve_context(question):
         query_embeddings=[
             query_embedding
         ],
-        n_results=3
+        n_results=10
     )
 
     return "\n\n".join(
